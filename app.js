@@ -21,8 +21,8 @@ function calculateSum(birthDate)
     
     for(let i=0;i<birthDate.length;i++) 
     {
-        quotient=quotient/10;
-        remainder=quotient%10;
+        quotient=birthDate/10;
+        remainder=birthDate%10;
         dateAdd= dateAdd+remainder;
     }
     return dateAdd;
