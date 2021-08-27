@@ -1,23 +1,23 @@
-const dob=document.querySelector("#date-of-birth");
+var dob=document.getElementById("date-of-birth");
 
-const luckyNumber=document.querySelector("#lucky-number");
+var luckyNumber=document.getElementById("lucky-number");
 
-const output=document.querySelector("#output");
+var output=document.getElementById("output");
 
-const checkButton=document.querySelector("#button");
+var checkButton=document.getElementById("button");
 
 function check()
 {
-    const birthDate=dob.value;
-    const sum=calculateSum(birthDate);
+    let birthDate=dob.value;
+    let sum=calculateSum(birthDate);
     lucky(sum);
 }
 function calculateSum(birthDate)
 {   
     birthDate=birthDate.replaceAll("/","");
-    const quotient=0;
-    const remainder=0;
-    const dateAdd=0;
+    let quotient=0;
+    let remainder=0;
+    let dateAdd=0;
     
     for(let i=0;i<birthDate.length;i++)
     {
