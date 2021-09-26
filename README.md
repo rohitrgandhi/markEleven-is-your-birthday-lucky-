@@ -42,3 +42,11 @@ Understand:
 - Use for loop for adding all the digits, use charAt to index each value. Make sure you typecast character to Number.
 - Read about typecasting here which datatypes can be typecasted from and to what type.
 - You can also sum the digits using while loop using modulus
+
+## ex02: Check if the birthday is lucky?
+Challenge:
+We have calculated the sum of digits and have taken user input for the lucky number to check. Now check whether the birthday is lucky or not.
+
+Understand:
+- Use modulus % operator to check whether the sum of digits is divisible by the input number or not.
+- If true display a message like your birthday is lucky else your birthday is NOT lucky, so sad using a textarea element.
