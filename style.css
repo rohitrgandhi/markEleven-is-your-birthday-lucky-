@@ -48,3 +48,9 @@ footer {
   img {
     padding: 1rem .2rem;
   }
+
+  marquee{
+background-color:#D1D5DB ;
+direction:left;
+color:black;
+  }
